@@ -23,13 +23,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var cardFour: UIImageView!
     
     
-    
     //MARK: - Properties
-
+    let firstCard = Card(identity: .eight, suit: .club, aceValue: 0)
+    let secondCard = Card(identity: .four, suit: .diamond, aceValue: 0)
+    
+    
     
     //MARK: - View Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        cardOne.image = UIImage(named: firstCard.imageName)
+        cardTwo.image = UIImage(named: secondCard.imageName)
+        
+        
 
     
         // Do any additional setup after loading the view, typically from a nib.

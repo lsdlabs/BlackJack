@@ -14,6 +14,8 @@
 		200355A62135895A00EBED40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200355A42135895A00EBED40 /* LaunchScreen.storyboard */; };
 		200355B12135895A00EBED40 /* BlackJackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200355B02135895A00EBED40 /* BlackJackTests.swift */; };
 		200355BC2135895A00EBED40 /* BlackJackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200355BB2135895A00EBED40 /* BlackJackUITests.swift */; };
+		8B6249382135BB3C008F06E3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6249372135BB3C008F06E3 /* Card.swift */; };
+		8B62493A2135CC6E008F06E3 /* BlackJackBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6249392135CC6E008F06E3 /* BlackJackBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		200355B72135895A00EBED40 /* BlackJackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackJackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		200355BB2135895A00EBED40 /* BlackJackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackUITests.swift; sourceTree = "<group>"; };
 		200355BD2135895A00EBED40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B6249372135BB3C008F06E3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8B6249392135CC6E008F06E3 /* BlackJackBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				2003559B2135895800EBED40 /* AppDelegate.swift */,
 				2003559D2135895800EBED40 /* ViewController.swift */,
+				8B6249372135BB3C008F06E3 /* Card.swift */,
+				8B6249392135CC6E008F06E3 /* BlackJackBrain.swift */,
 				2003559F2135895800EBED40 /* Main.storyboard */,
 				200355A22135895A00EBED40 /* Assets.xcassets */,
 				200355A42135895A00EBED40 /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2003559E2135895800EBED40 /* ViewController.swift in Sources */,
+				8B62493A2135CC6E008F06E3 /* BlackJackBrain.swift in Sources */,
+				8B6249382135BB3C008F06E3 /* Card.swift in Sources */,
 				2003559C2135895800EBED40 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
