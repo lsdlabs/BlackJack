@@ -49,6 +49,9 @@
                                 <state key="normal" title="STAY!">
                                     <color key="titleColor" red="0.039939515292644501" green="0.035393543541431427" blue="0.013695482164621353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="stayTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VUI-vZ-DAp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucs-DK-9rO">
                                 <rect key="frame" x="124" y="503" width="125" height="65"/>
@@ -58,6 +61,9 @@
                                 <state key="normal" title="HIT ME!">
                                     <color key="titleColor" red="0.11443506926298141" green="0.056501626968383789" blue="0.026816722005605698" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="hitMeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jzG-9Y-828"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdV-iL-eOw">
                                 <rect key="frame" x="282" y="737" width="78" height="41"/>
@@ -67,6 +73,9 @@
                                 <state key="normal" title="Reset">
                                     <color key="titleColor" red="0.032131176441907883" green="0.0070118331350386143" blue="0.0074496492743492126" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="resetTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DIx-Ko-KY6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Computer Scored: 10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEf-zp-xgU" userLabel="Computer Score">
                                 <rect key="frame" x="16" y="186" width="343" height="80"/>
@@ -86,6 +95,18 @@
                         <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="cardFour" destination="Xid-gd-0iD" id="49i-1r-4dL"/>
+                        <outlet property="cardOne" destination="t0z-tE-hSl" id="Mz5-zo-2WU"/>
+                        <outlet property="cardThree" destination="i6J-5O-ZwU" id="4nz-VV-Csj"/>
+                        <outlet property="cardTwo" destination="8ga-2z-gOd" id="lDm-yd-Yc6"/>
+                        <outlet property="computerScoreLabel" destination="WEf-zp-xgU" id="ywj-m0-thZ"/>
+                        <outlet property="hitMeButton" destination="Ucs-DK-9rO" id="luh-Ow-guh"/>
+                        <outlet property="playerCurrentScoreLAbel" destination="xQC-At-dJm" id="lCn-KK-UYI"/>
+                        <outlet property="resetButton" destination="jdV-iL-eOw" id="3Z5-iC-lgO"/>
+                        <outlet property="stayButton" destination="2MM-QA-qnE" id="e0L-Pe-kZW"/>
+                        <outlet property="winOrLoseLabel" destination="Ph9-5P-sJl" id="FFd-qI-Rti"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
